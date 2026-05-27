@@ -1,4 +1,6 @@
-export const getAllTasks =(request, response)=> {
+import Task from '../models/Task.js'
+
+export const getAllTasks =async (req, res)=> {
     response.status(200).send("ban co 20 viec can lam");
 };
 

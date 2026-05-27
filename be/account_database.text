@@ -1,7 +1,0 @@
-//connection string
-//mongodb+srv://admin:Admin@123@cluster0.mk9l1mk.mongodb.net/?appName=Cluster0
-//hoac
-//mongodb://admin:<db_password>@ac-rijkuvm-shard-00-00.mk9l1mk.mongodb.net:27017,ac-rijkuvm-shard-00-01.mk9l1mk.mongodb.net:27017,ac-rijkuvm-shard-00-02.mk9l1mk.mongodb.net:27017/?ssl=true&replicaSet=atlas-87ano9-shard-0&authSource=admin&appName=Cluster0
-
-//hoac 
-//mongodb://admin:Admin@123@ac-rijkuvm-shard-00-00.mk9l1mk.mongodb.net:27017,ac-rijkuvm-shard-00-01.mk9l1mk.mongodb.net:27017,ac-rijkuvm-shard-00-02.mk9l1mk.mongodb.net:27017/?ssl=true&replicaSet=atlas-87ano9-shard-0&authSource=admin&appName=Cluster0
