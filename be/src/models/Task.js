@@ -12,7 +12,7 @@ const taskSchema = new mongoose.Schema(
             enum: ["active", "complete"], //chi ton tai 2 truong
             default: "active" //neu kh truyen thi mac dinh active
         },
-        completeAt:{
+        completedAt:{
             type: Date,
             default: null //ban dau la null nhung neu status=complete thi minh se set gia tri
         },
