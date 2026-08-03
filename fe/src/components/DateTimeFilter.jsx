@@ -1,11 +1,32 @@
-import React from 'react'
+import { options } from "../lib/data";
+import {
+  Combobox,
+  ComboboxContent,
+  ComboboxEmpty,
+  ComboboxInput,
+  ComboboxList,
+  ComboboxItem,
+} from "./ui/combobox";
 
-const DateTimeFilter = () => {
+const DateTimeFilter = ({dateQuery, setDateQuery }) => {
   return (
-    <div>
-      DateTimeFilter
-    </div>
-  )
-}
+    <Combobox items={options}>
+      <div className="w-64">
+        <ComboboxInput placeholder="Chọn thời gian" />
+      </div>
 
-export default DateTimeFilter
+      <ComboboxContent>
+        <ComboboxEmpty>No items found.</ComboboxEmpty>
+        <ComboboxList>
+          {(item) => (
+            <ComboboxItem key={item.label} value={item.label}>
+              {item.label}
+            </ComboboxItem>
+          )}
+        </ComboboxList>
+      </ComboboxContent>
+    </Combobox>
+  );
+};
+
+export default DateTimeFilter;
